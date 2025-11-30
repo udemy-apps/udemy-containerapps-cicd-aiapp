@@ -12,7 +12,7 @@ export default function TaskBoard() {
   return (
     <div className="mx-auto max-w-3xl p-8 space-y-8">
       <header className="flex items-center justify-between">
-        <h1 className="text-3xl font-semibold tracking-tight bg-gradient-to-r from-neutral-900 to-neutral-500 bg-clip-text text-transparent dark:from-neutral-100 dark:to-neutral-400">Tasks</h1>
+        <h1 className="text-3xl font-semibold tracking-tight bg-gradient-to-r from-neutral-900 to-neutral-500 bg-clip-text text-transparent dark:from-neutral-100 dark:to-neutral-400">Udemy-Tasks</h1>
         <button
           onClick={() => setCreating(true)}
           className="inline-flex items-center gap-1 rounded-full bg-gradient-to-b from-neutral-900 to-neutral-800 text-neutral-50 dark:from-neutral-100 dark:to-neutral-200 dark:text-neutral-900 px-5 py-2 text-sm font-medium shadow-sm hover:shadow transition-all active:translate-y-px focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/60"
